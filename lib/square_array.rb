@@ -1,8 +1,9 @@
-counter = 0
-numbers = [2,4,6,8]
-new_numbers = []
+
 
 def square_array(numbers)
+  counter = 0
+  numbers = [2,4,6,8]
+  new_numbers = []
   while counter < numbers.length()
   new_numbers.push(numbers[counter] ** 2)
   counter += 1
