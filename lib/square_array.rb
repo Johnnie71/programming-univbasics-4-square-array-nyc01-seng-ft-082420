@@ -7,6 +7,6 @@ def square_array(numbers)
   new_numbers.push(numbers |index| ** 2)
   counter += 1
   end
- square_array(numbers)
+ new_numbers
 end
 
